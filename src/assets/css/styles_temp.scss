@@ -1,0 +1,27 @@
+
+
+
+.contain-main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 55px;
+}
+
+.footer-main {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 200px);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-main .copyright {
+    margin-left: auto;
+}
